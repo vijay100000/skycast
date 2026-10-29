@@ -14,6 +14,14 @@ export default {
     },
     extend: {
       colors: {
+        skycast: {
+          50: "#eff8ff",
+          100: "#dbeeff",
+          300: "#82caff",
+          500: "#2294e8",
+          700: "#1763a6",
+          950: "#14243a",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,6 +65,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      boxShadow: {
+        weather: "0 22px 55px rgba(35, 93, 171, 0.20)",
+        card: "0 10px 32px rgba(37, 67, 109, 0.045)",
       },
       borderRadius: {
         lg: "var(--radius)",
